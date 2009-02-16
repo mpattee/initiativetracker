@@ -216,6 +216,11 @@
 			5CDBBCAE0F4951980079D6D8 /* PBXTextBookmark */ = 5CDBBCAE0F4951980079D6D8 /* PBXTextBookmark */;
 			5CDBBCB30F4952750079D6D8 /* PBXTextBookmark */ = 5CDBBCB30F4952750079D6D8 /* PBXTextBookmark */;
 			5CDBBCB60F4952AA0079D6D8 /* PBXTextBookmark */ = 5CDBBCB60F4952AA0079D6D8 /* PBXTextBookmark */;
+			5CDBBCBE0F4953CC0079D6D8 /* PBXTextBookmark */ = 5CDBBCBE0F4953CC0079D6D8 /* PBXTextBookmark */;
+			5CDBBCBF0F4953CC0079D6D8 /* PBXTextBookmark */ = 5CDBBCBF0F4953CC0079D6D8 /* PBXTextBookmark */;
+			5CDBBCC00F4953CC0079D6D8 /* PBXTextBookmark */ = 5CDBBCC00F4953CC0079D6D8 /* PBXTextBookmark */;
+			5CDBBCC10F4953CC0079D6D8 /* PBXTextBookmark */ = 5CDBBCC10F4953CC0079D6D8 /* PBXTextBookmark */;
+			5CDBBCC20F4953CC0079D6D8 /* PBXTextBookmark */ = 5CDBBCC20F4953CC0079D6D8 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 5C57A0950F2D54E500DD447B /* Source Control */;
 		userBuildSettings = {
@@ -261,8 +266,8 @@
 	5C57A09B0F30125300DD447B /* Player.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1171, 756}}";
-			sepNavSelRange = "{574, 0}";
-			sepNavVisRange = "{0, 612}";
+			sepNavSelRange = "{610, 0}";
+			sepNavVisRange = "{0, 610}";
 			sepNavWindowFrame = "{{15, 315}, {750, 558}}";
 		};
 	};
@@ -282,9 +287,9 @@
 	};
 	5C57A0A40F30144700DD447B /* InitiativeTrackerController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1171, 2338}}";
-			sepNavSelRange = "{3016, 0}";
-			sepNavVisRange = "{2566, 1696}";
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 2324}}";
+			sepNavSelRange = "{2858, 0}";
+			sepNavVisRange = "{2566, 1793}";
 		};
 	};
 	5C57A0B30F30577400DD447B /* PBXTextBookmark */ = {
@@ -312,7 +317,7 @@
 		fRef = 5C57A09B0F30125300DD447B /* Player.h */;
 		name = "Player.h: 17";
 		rLen = 0;
-		rLoc = 363;
+		rLoc = 303;
 		rType = 0;
 		vrLen = 388;
 		vrLoc = 0;
@@ -322,7 +327,7 @@
 		fRef = 5C57A09C0F30125300DD447B /* Player.m */;
 		name = "Player.m: 14";
 		rLen = 0;
-		rLoc = 504;
+		rLoc = 503;
 		rType = 0;
 		vrLen = 244;
 		vrLoc = 0;
@@ -332,7 +337,7 @@
 		fRef = 5C57A09B0F30125300DD447B /* Player.h */;
 		name = "Player.h: 22";
 		rLen = 0;
-		rLoc = 612;
+		rLoc = 610;
 		rType = 0;
 		vrLen = 386;
 		vrLoc = 0;
@@ -342,7 +347,7 @@
 		fRef = 5C57A09C0F30125300DD447B /* Player.m */;
 		name = "Player.m: 14";
 		rLen = 0;
-		rLoc = 504;
+		rLoc = 503;
 		rType = 0;
 		vrLen = 244;
 		vrLoc = 0;
@@ -352,7 +357,7 @@
 		fRef = 5C57A09B0F30125300DD447B /* Player.h */;
 		name = "Player.h: 17";
 		rLen = 0;
-		rLoc = 363;
+		rLoc = 303;
 		rType = 0;
 		vrLen = 388;
 		vrLoc = 0;
@@ -522,7 +527,7 @@
 		fRef = 5C57A09C0F30125300DD447B /* Player.m */;
 		name = "Player.m: 14";
 		rLen = 0;
-		rLoc = 504;
+		rLoc = 503;
 		rType = 0;
 		vrLen = 244;
 		vrLoc = 0;
@@ -532,7 +537,7 @@
 		fRef = 5C57A09B0F30125300DD447B /* Player.h */;
 		name = "Player.h: 17";
 		rLen = 0;
-		rLoc = 363;
+		rLoc = 303;
 		rType = 0;
 		vrLen = 388;
 		vrLoc = 0;
@@ -562,7 +567,7 @@
 		fRef = 5C57A09C0F30125300DD447B /* Player.m */;
 		name = "Player.m: 14";
 		rLen = 0;
-		rLoc = 504;
+		rLoc = 503;
 		rType = 0;
 		vrLen = 244;
 		vrLoc = 0;
@@ -592,7 +597,7 @@
 		fRef = 5C57A09B0F30125300DD447B /* Player.h */;
 		name = "Player.h: 17";
 		rLen = 0;
-		rLoc = 363;
+		rLoc = 303;
 		rType = 0;
 		vrLen = 388;
 		vrLoc = 0;
@@ -602,7 +607,7 @@
 		fRef = 5C57A09C0F30125300DD447B /* Player.m */;
 		name = "Player.m: 16";
 		rLen = 0;
-		rLoc = 506;
+		rLoc = 505;
 		rType = 0;
 		vrLen = 246;
 		vrLoc = 0;
@@ -621,8 +626,8 @@
 		isa = PBXTextBookmark;
 		fRef = 5C57A09B0F30125300DD447B /* Player.h */;
 		name = "Player.h: 16";
-		rLen = 7;
-		rLoc = 345;
+		rLen = 0;
+		rLoc = 303;
 		rType = 0;
 		vrLen = 439;
 		vrLoc = 0;
@@ -652,7 +657,7 @@
 		fRef = 5C57A09C0F30125300DD447B /* Player.m */;
 		name = "Player.m: 16";
 		rLen = 0;
-		rLoc = 506;
+		rLoc = 505;
 		rType = 0;
 		vrLen = 246;
 		vrLoc = 0;
@@ -662,7 +667,7 @@
 		fRef = 5C57A09B0F30125300DD447B /* Player.h */;
 		name = "Player.h: 17";
 		rLen = 0;
-		rLoc = 363;
+		rLoc = 303;
 		rType = 0;
 		vrLen = 387;
 		vrLoc = 0;
@@ -752,7 +757,7 @@
 		fRef = 5C57A09B0F30125300DD447B /* Player.h */;
 		name = "Player.h: 17";
 		rLen = 0;
-		rLoc = 363;
+		rLoc = 303;
 		rType = 0;
 		vrLen = 387;
 		vrLoc = 0;
@@ -762,7 +767,7 @@
 		fRef = 5C57A09C0F30125300DD447B /* Player.m */;
 		name = "Player.m: 16";
 		rLen = 0;
-		rLoc = 506;
+		rLoc = 505;
 		rType = 0;
 		vrLen = 246;
 		vrLoc = 0;
@@ -772,7 +777,7 @@
 		fRef = 5C57A09B0F30125300DD447B /* Player.h */;
 		name = "Player.h: 17";
 		rLen = 0;
-		rLoc = 363;
+		rLoc = 303;
 		rType = 0;
 		vrLen = 387;
 		vrLoc = 0;
@@ -792,7 +797,7 @@
 		fRef = 5C57A09B0F30125300DD447B /* Player.h */;
 		name = "Player.h: 17";
 		rLen = 0;
-		rLoc = 363;
+		rLoc = 303;
 		rType = 0;
 		vrLen = 387;
 		vrLoc = 0;
@@ -902,7 +907,7 @@
 		fRef = 5C57A09B0F30125300DD447B /* Player.h */;
 		name = "Player.h: 17";
 		rLen = 0;
-		rLoc = 363;
+		rLoc = 303;
 		rType = 0;
 		vrLen = 387;
 		vrLoc = 0;
@@ -1002,7 +1007,7 @@
 		fRef = 5C57A09B0F30125300DD447B /* Player.h */;
 		name = "Player.h: 17";
 		rLen = 0;
-		rLoc = 363;
+		rLoc = 303;
 		rType = 0;
 		vrLen = 387;
 		vrLoc = 0;
@@ -1022,7 +1027,7 @@
 		fRef = 5C57A09B0F30125300DD447B /* Player.h */;
 		name = "Player.h: 17";
 		rLen = 0;
-		rLoc = 363;
+		rLoc = 303;
 		rType = 0;
 		vrLen = 387;
 		vrLoc = 0;
@@ -1162,7 +1167,7 @@
 		fRef = 5C57A09B0F30125300DD447B /* Player.h */;
 		name = "Player.h: 22";
 		rLen = 0;
-		rLoc = 490;
+		rLoc = 303;
 		rType = 0;
 		vrLen = 439;
 		vrLoc = 0;
@@ -1211,8 +1216,8 @@
 		isa = PBXTextBookmark;
 		fRef = 5C57A09B0F30125300DD447B /* Player.h */;
 		name = "Player.h: 16";
-		rLen = 7;
-		rLoc = 345;
+		rLen = 0;
+		rLoc = 303;
 		rType = 0;
 		vrLen = 439;
 		vrLoc = 0;
@@ -1282,7 +1287,7 @@
 		fRef = 5C57A09B0F30125300DD447B /* Player.h */;
 		name = "Player.h: 27";
 		rLen = 0;
-		rLoc = 574;
+		rLoc = 572;
 		rType = 0;
 		vrLen = 612;
 		vrLoc = 0;
@@ -1292,7 +1297,7 @@
 		fRef = 5C57A09C0F30125300DD447B /* Player.m */;
 		name = "Player.m: 26";
 		rLen = 0;
-		rLoc = 503;
+		rLoc = 502;
 		rType = 0;
 		vrLen = 513;
 		vrLoc = 0;
@@ -1332,7 +1337,7 @@
 		fRef = 5C57A09B0F30125300DD447B /* Player.h */;
 		name = "Player.h: 27";
 		rLen = 0;
-		rLoc = 574;
+		rLoc = 572;
 		rType = 0;
 		vrLen = 612;
 		vrLoc = 0;
@@ -1342,7 +1347,7 @@
 		fRef = 5C57A09C0F30125300DD447B /* Player.m */;
 		name = "Player.m: 26";
 		rLen = 0;
-		rLoc = 503;
+		rLoc = 502;
 		rType = 0;
 		vrLen = 513;
 		vrLoc = 0;
@@ -1844,6 +1849,56 @@
 		rType = 0;
 		vrLen = 1696;
 		vrLoc = 2566;
+	};
+	5CDBBCBE0F4953CC0079D6D8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5C57A0A40F30144700DD447B /* InitiativeTrackerController.m */;
+		name = "InitiativeTrackerController.m: 107";
+		rLen = 0;
+		rLoc = 2858;
+		rType = 0;
+		vrLen = 1793;
+		vrLoc = 2566;
+	};
+	5CDBBCBF0F4953CC0079D6D8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5C57A0A30F30144700DD447B /* InitiativeTrackerController.h */;
+		name = "InitiativeTrackerController.h: 19";
+		rLen = 0;
+		rLoc = 517;
+		rType = 0;
+		vrLen = 850;
+		vrLoc = 0;
+	};
+	5CDBBCC00F4953CC0079D6D8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5C57A0A40F30144700DD447B /* InitiativeTrackerController.m */;
+		name = "InitiativeTrackerController.m: 107";
+		rLen = 0;
+		rLoc = 2858;
+		rType = 0;
+		vrLen = 1793;
+		vrLoc = 2566;
+	};
+	5CDBBCC10F4953CC0079D6D8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5C57A0A30F30144700DD447B /* InitiativeTrackerController.h */;
+		name = "InitiativeTrackerController.h: 19";
+		rLen = 0;
+		rLoc = 517;
+		rType = 0;
+		vrLen = 850;
+		vrLoc = 0;
+	};
+	5CDBBCC20F4953CC0079D6D8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5C57A09B0F30125300DD447B /* Player.h */;
+		name = "Player.h: 31";
+		rLen = 0;
+		rLoc = 610;
+		rType = 0;
+		vrLen = 610;
+		vrLoc = 0;
 	};
 	8D1107260486CEB800E47090 /* DM Helper */ = {
 		activeExec = 0;

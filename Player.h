@@ -14,7 +14,7 @@
 	NSInteger initiativeModifier;
 	NSInteger initiative;
 	BOOL startOfRoundEffect;
-	BOOL savingThrowNeeded;
+	BOOL endOfRoundEffect;
 	BOOL roundCompleted;
 	NSColor *color;
 }
@@ -24,7 +24,7 @@
 @property NSInteger initiative;
 @property (retain) NSColor *color;
 @property BOOL startOfRoundEffect;
-@property BOOL savingThrowNeeded;
+@property BOOL endOfRoundEffect;
 @property BOOL roundCompleted;
 
 @end

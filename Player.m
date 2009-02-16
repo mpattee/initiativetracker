@@ -23,7 +23,7 @@
 	return [NSString stringWithFormat:@"%@, %d, %d", [self name], [self initiativeModifier], [self initiative]];
 }
 
-@synthesize color, name, initiativeModifier, initiative, startOfRoundEffect, savingThrowNeeded, roundCompleted;
+@synthesize color, name, initiativeModifier, initiative, startOfRoundEffect, endOfRoundEffect, roundCompleted;
 
 
 

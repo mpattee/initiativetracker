@@ -274,7 +274,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>5</integer>
+									<integer>2</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
@@ -317,7 +317,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>InitiativeTrackerController.m</string>
+								<string>Player.h</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -325,17 +325,17 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>InitiativeTrackerController.m</string>
+										<string>Player.h</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>5CDBBCB60F4952AA0079D6D8</string>
+										<string>5CDBBCC20F4953CC0079D6D8</string>
 										<key>history</key>
 										<array>
-											<string>5CDBBC490F49438C0079D6D8</string>
 											<string>5CDBBC4A0F49438C0079D6D8</string>
-											<string>5CDBBCA70F4951190079D6D8</string>
-											<string>5CDBBCA20F49507A0079D6D8</string>
+											<string>5CDBBCBE0F4953CC0079D6D8</string>
+											<string>5CDBBCBF0F4953CC0079D6D8</string>
+											<string>5CDBBC490F49438C0079D6D8</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -424,6 +424,8 @@
 											<string>5CDBBC9F0F49503F0079D6D8</string>
 											<string>5CDBBCA30F49507A0079D6D8</string>
 											<string>5CDBBCA80F4951190079D6D8</string>
+											<string>5CDBBCC00F4953CC0079D6D8</string>
+											<string>5CDBBCC10F4953CC0079D6D8</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -620,10 +622,10 @@
 		<string>5CDBBC7F0F494D500079D6D8</string>
 		<string>5CDBBC420F493C120079D6D8</string>
 		<string>5CDBBC430F493C120079D6D8</string>
+		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>5C57A0D30F30577400DD447B</string>
 		<string>/Users/mpattee/Documents/source/InitiativeTracker/InitiativeTracker.xcodeproj</string>
-		<string>1C78EAAD065D492600B07095</string>
 	</array>
 	<key>WindowString</key>
 	<string>0 59 1440 819 0 0 1440 878 </string>
@@ -1003,7 +1005,7 @@
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>Identifier</key>
@@ -1469,7 +1471,11 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {500, 315}}</string>
 								<key>RubberWindowFrame</key>
-								<string>21 499 500 356 0 0 1440 878 </string>
+								<string>593 434 500 356 0 0 1440 878 </string>
+								<key>XCRefactoringSplitViewLowerHeight</key>
+								<real>112</real>
+								<key>XCRefactoringSplitViewTotalHeight</key>
+								<real>232</real>
 							</dict>
 							<key>Module</key>
 							<string>XCRefactoringModule</string>
@@ -1496,7 +1502,7 @@
 				<string>5CDBBC7E0F494D500079D6D8</string>
 			</array>
 			<key>WindowString</key>
-			<string>21 499 500 356 0 0 1440 878 </string>
+			<string>593 434 500 356 0 0 1440 878 </string>
 			<key>WindowToolGUID</key>
 			<string>5CDBBC7F0F494D500079D6D8</string>
 			<key>WindowToolIsVisible</key>

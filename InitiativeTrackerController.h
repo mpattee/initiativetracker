@@ -15,12 +15,19 @@
 	IBOutlet NSTextField *rollField;
 	IBOutlet NSTableView *tableView;
 	IBOutlet NSColorWell *initiativeColor;
+	IBOutlet NSTextField *roundLabel;
+	IBOutlet NSButton *nextRoundButton;
 	NSMutableArray *players;
+	NSInteger combatRound;
 }
 
 - (IBAction)addInitiative:(id)sender;
 - (IBAction)removeInitiative:(id)sender;
-- (IBAction)clearTable:(id)sender;
+- (IBAction)newCombat:(id)sender;
+- (IBAction)nextRound:(id)sender;
+- (IBAction)nextPlayer:(id)sender;
 - (int)rollInitiative:(int)modifier;
 - (void)initSorting;
+
+@property NSInteger combatRound;
 @end

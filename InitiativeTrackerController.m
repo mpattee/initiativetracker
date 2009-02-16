@@ -12,12 +12,15 @@
 
 @implementation InitiativeTrackerController
 
+@synthesize combatRound;
+
 - (id) init
 {
 	if (![super init])
 		return nil;
 	srandom(time(NULL));
 	players = [[NSMutableArray alloc] init];
+	combatRound = 0;
 	return self;
 
 }
@@ -31,6 +34,7 @@
 - (void)awakeFromNib
 {
 	[self initSorting];
+	[roundLabel setStringValue:[NSString stringWithFormat:@"Round: %d", [self combatRound]]];
 }
 
 
@@ -72,12 +76,42 @@
 	[tableView reloadData];
 }
 
-- (IBAction)clearTable:(id)sender;
+- (IBAction)newCombat:(id)sender;
 {
 	[players release];
 	players = [[NSMutableArray alloc] init];
+	self.combatRound = 0;
+	[roundLabel setStringValue:[NSString stringWithFormat:@"Round: %d", [self combatRound]]];
+	[nextRoundButton setTitle:@"Start Combat"];
 	[tableView reloadData];
 }
+
+- (IBAction)nextRound:(id)sender
+{	self.combatRound++;
+	if (combatRound == 1) {
+		[nextRoundButton setTitle:@"Next Round"];
+	}
+	[roundLabel setStringValue:[NSString stringWithFormat:@"Round: %d", [self combatRound]]];
+	NSEnumerator *playerEnumerator = [players objectEnumerator];
+	Player *player;
+	while (player = [playerEnumerator nextObject]) {
+		player.roundCompleted = NO;
+	}
+	[tableView reloadData];
+	[tableView selectRowIndexes:[NSIndexSet indexSetWithIndex:0] byExtendingSelection:NO];
+}
+
+- (IBAction)nextPlayer:(id)sender
+{
+	NSInteger currentIndex = [tableView selectedRow];
+	Player * player = [players objectAtIndex:currentIndex];
+	player.roundCompleted = YES;
+	[tableView selectRowIndexes:[NSIndexSet indexSetWithIndex:currentIndex + 1] byExtendingSelection:NO];
+	[tableView reloadData];
+	// TODO: check for end of round effect
+	// TODO: check for start of round effect
+}
+
 
 #pragma mark Table view datasource methods
 

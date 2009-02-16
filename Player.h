@@ -13,6 +13,9 @@
 	NSString *name;
 	NSInteger initiativeModifier;
 	NSInteger initiative;
+	BOOL startOfRoundEffect;
+	BOOL savingThrowNeeded;
+	BOOL roundCompleted;
 	NSColor *color;
 }
 
@@ -20,5 +23,8 @@
 @property NSInteger initiativeModifier;
 @property NSInteger initiative;
 @property (retain) NSColor *color;
+@property BOOL startOfRoundEffect;
+@property BOOL savingThrowNeeded;
+@property BOOL roundCompleted;
 
 @end

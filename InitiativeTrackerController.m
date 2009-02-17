@@ -99,17 +99,39 @@
 	}
 	[tableView reloadData];
 	[tableView selectRowIndexes:[NSIndexSet indexSetWithIndex:0] byExtendingSelection:NO];
+	player = [players objectAtIndex:0];
+	if (player.startOfRoundEffect) {
+		NSAlert * sorAlert = [NSAlert alertWithMessageText:[NSString stringWithFormat:@"%@ has a start of round action to complete", player.name] defaultButton:@"Keep Warning" alternateButton:@"Clear Warning" otherButton:nil informativeTextWithFormat:@"Would you like to keep the warning?"];
+		NSInteger ret = [sorAlert runModal];
+		if (ret == NSAlertAlternateReturn) {
+			player.startOfRoundEffect = NO;
+		}
+	}
 }
 
 - (IBAction)nextPlayer:(id)sender
 {
 	NSInteger currentIndex = [tableView selectedRow];
 	Player * player = [players objectAtIndex:currentIndex];
+	if (player.endOfRoundEffect) {
+		NSAlert * eorAlert = [NSAlert alertWithMessageText:[NSString stringWithFormat:@"%@ has an end of round action to complete", player.name] defaultButton:@"Keep Warning" alternateButton:@"Clear Warning" otherButton:nil informativeTextWithFormat:@"Would you like to keep the warning?"];
+		NSInteger ret = [eorAlert runModal];
+		if (ret == NSAlertAlternateReturn) {
+			player.endOfRoundEffect = NO;
+		}
+	}
 	player.roundCompleted = YES;
 	[tableView selectRowIndexes:[NSIndexSet indexSetWithIndex:currentIndex + 1] byExtendingSelection:NO];
 	[tableView reloadData];
-	// TODO: check for end of round effect
-	// TODO: check for start of round effect
+	player = [players objectAtIndex:[tableView selectedRow]];
+	if (player.startOfRoundEffect) {
+		NSAlert * sorAlert = [NSAlert alertWithMessageText:[NSString stringWithFormat:@"%@ has a start of round action to complete", player.name] defaultButton:@"Keep Warning" alternateButton:@"Clear Warning" otherButton:nil informativeTextWithFormat:@"Would you like to keep the warning?"];
+		NSInteger ret = [sorAlert runModal];
+		if (ret == NSAlertAlternateReturn) {
+			player.startOfRoundEffect = NO;
+		}
+	}
+	[tableView reloadData];
 }
 
 
@@ -131,10 +153,6 @@
 		NSTextFieldCell * cell = [aTableColumn dataCell];
 		[cell setBackgroundColor:player.color];
 		return nil;
-		
-//		NSColorWell *colorWell = [[[NSColorWell alloc] init] autorelease];
-//		[colorWell setColor:player.color];
-//		return colorWell;
 	}
 		
 	// What is the value of the attribute named identifier?

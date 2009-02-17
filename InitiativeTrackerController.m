@@ -82,12 +82,15 @@
 	players = [[NSMutableArray alloc] init];
 	self.combatRound = 0;
 	[roundLabel setStringValue:[NSString stringWithFormat:@"Round: %d", [self combatRound]]];
+	[nextRoundButton setEnabled:YES];
 	[nextRoundButton setTitle:@"Start Combat"];
 	[tableView reloadData];
 }
 
 - (IBAction)nextRound:(id)sender
-{	self.combatRound++;
+{	
+	[nextRoundButton setEnabled:NO];
+	self.combatRound++;
 	if (combatRound == 1) {
 		[nextRoundButton setTitle:@"Next Round"];
 	}
@@ -107,6 +110,16 @@
 			player.startOfRoundEffect = NO;
 		}
 	}
+}
+
+- (BOOL)isRoundCompleted:(NSArray *)somePlayers
+{
+	for (Player * player in somePlayers) {
+		if (!player.roundCompleted) {
+			return NO;
+		}
+	}
+	return YES;
 }
 
 - (IBAction)nextPlayer:(id)sender
@@ -130,6 +143,9 @@
 		if (ret == NSAlertAlternateReturn) {
 			player.startOfRoundEffect = NO;
 		}
+	}
+	if ([self isRoundCompleted:players]) {
+		[nextRoundButton setEnabled:YES];
 	}
 	[tableView reloadData];
 }

@@ -3,7 +3,7 @@
 //  InitiativeTracker
 //
 //  Created by Mike Pattee on 1/27/09.
-//  Copyright 2009 __MyCompanyName__. All rights reserved.
+//  Copyright 2009 Cordax Software, LLC. All rights reserved.
 //
 
 #import "InitiativeTrackerController.h"

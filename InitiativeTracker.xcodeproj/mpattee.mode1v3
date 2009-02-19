@@ -328,12 +328,12 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>5CDBBE2B0F4D447F0079D6D8</string>
+										<string>5CDFA4380F4D49D500D81B64</string>
 										<key>history</key>
 										<array>
 											<string>5CDBBD770F4BC2C50079D6D8</string>
 											<string>5CDBBD890F4C0AB30079D6D8</string>
-											<string>5CDBBD8A0F4C0AB30079D6D8</string>
+											<string>5CDBBE2B0F4D447F0079D6D8</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -341,9 +341,6 @@
 											<string>5C57A0B80F30577400DD447B</string>
 											<string>5C57A0BA0F30577400DD447B</string>
 											<string>5C57A0BB0F30577400DD447B</string>
-											<string>5CDBBD780F4BC2C50079D6D8</string>
-											<string>5CDBBD8B0F4C0AB30079D6D8</string>
-											<string>5CDBBD8C0F4C0AB30079D6D8</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -355,14 +352,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1232, 541}}</string>
+								<string>{{0, 0}, {1232, 773}}</string>
 								<key>RubberWindowFrame</key>
 								<string>0 59 1440 819 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>541pt</string>
+							<string>773pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -375,14 +372,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 546}, {1232, 232}}</string>
+								<string>{{0, 778}, {1232, 0}}</string>
 								<key>RubberWindowFrame</key>
 								<string>0 59 1440 819 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>232pt</string>
+							<string>0pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -401,9 +398,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>5CDBBD7A0F4BC2C50079D6D8</string>
+				<string>5CDFA4390F4D49D500D81B64</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>5CDBBD7B0F4BC2C50079D6D8</string>
+				<string>5CDFA43A0F4D49D500D81B64</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -537,11 +534,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>5CDBBDA20F4C0D680079D6D8</string>
-		<string>5CDBBDA30F4C0D680079D6D8</string>
-		<string>1C78EAAD065D492600B07095</string>
-		<string>1CD10A99069EF8BA00B06720</string>
-		<string>5C57A0D30F30577400DD447B</string>
 		<string>/Users/mpattee/Documents/source/InitiativeTracker/InitiativeTracker.xcodeproj</string>
 	</array>
 	<key>WindowString</key>

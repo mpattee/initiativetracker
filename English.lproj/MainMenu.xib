@@ -8,7 +8,7 @@
 		<string key="IBDocument.HIToolboxVersion">353.00</string>
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
-			<integer value="372"/>
+			<integer value="512"/>
 			<integer value="81"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
@@ -2340,6 +2340,14 @@
 					</object>
 					<int key="connectionID">543</int>
 				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">delegate</string>
+						<reference key="source" ref="502263964"/>
+						<reference key="destination" ref="146852277"/>
+					</object>
+					<int key="connectionID">544</int>
+				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
 				<object class="NSArray" key="orderedObjects">
@@ -2935,8 +2943,8 @@
 							<reference ref="578408676"/>
 							<reference ref="311904219"/>
 							<reference ref="602369210"/>
-							<reference ref="410780904"/>
 							<reference ref="1068993847"/>
+							<reference ref="410780904"/>
 						</object>
 						<reference key="parent" ref="972006081"/>
 					</object>
@@ -3936,8 +3944,8 @@
 					<reference ref="9"/>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<reference ref="9"/>
-					<string>{{102, 324}, {852, 490}}</string>
-					<string>{{102, 324}, {852, 490}}</string>
+					<string>{{176, 332}, {852, 490}}</string>
+					<string>{{176, 332}, {852, 490}}</string>
 					<reference ref="9"/>
 					<string>{{33, 99}, {480, 360}}</string>
 					<string>{3.40282e+38, 3.40282e+38}</string>
@@ -4087,7 +4095,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">543</int>
+			<int key="maxID">544</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">

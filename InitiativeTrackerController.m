@@ -195,6 +195,33 @@
 }
 
 
+- (NSIndexSet *)tableView:(NSTableView *)aTableView selectionIndexesForProposedSelection:(NSIndexSet *)proposedSelectionIndexes
+{
+	if ([aTableView clickedRow] == -1) {
+		//fixes bug where this delegate is called twice and the second time the clickedRow, clickedColumn are set to -1 even though its the same NSTableView
+		return [aTableView selectedRowIndexes];		
+	}
+	Player * player = [players objectAtIndex:[aTableView clickedRow]];
+	
+	if ([aTableView clickedColumn] == 4) {
+		if (player.startOfRoundEffect) {
+			player.startOfRoundEffect = NO;
+		} else {
+			player.startOfRoundEffect = YES;			
+		}
+	}
+	
+	if ([aTableView clickedColumn] == 5) {
+		if (player.endOfRoundEffect) {
+			player.endOfRoundEffect = NO;
+		} else {
+			player.endOfRoundEffect = YES;			
+		}
+	}
+	return [aTableView selectedRowIndexes];
+}
+
+
 
 - (NSInteger)rollInitiative:(int)modifier;
 {

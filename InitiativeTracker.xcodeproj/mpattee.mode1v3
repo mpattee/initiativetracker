@@ -230,8 +230,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -277,8 +275,9 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>14</integer>
-									<integer>13</integer>
+									<integer>5</integer>
+									<integer>1</integer>
+									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
@@ -312,12 +311,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>InitiativeTrackerController.h</string>
+								<string>InitiativeTrackerController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -325,24 +326,14 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>InitiativeTrackerController.h</string>
+										<string>InitiativeTrackerController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>5C45DEEE0F4DB8CE0075E5F8</string>
+										<string>5C072C5C0F57B71A0069F9EF</string>
 										<key>history</key>
 										<array>
-											<string>5CDFA44C0F4D5C2A00D81B64</string>
-											<string>5CDFA44D0F4D5C2A00D81B64</string>
-											<string>5CDFA44E0F4D5C2A00D81B64</string>
-											<string>5CDFA4570F4D5DB800D81B64</string>
-										</array>
-										<key>prevStack</key>
-										<array>
-											<string>5C57A0B70F30577400DD447B</string>
-											<string>5C57A0B80F30577400DD447B</string>
-											<string>5C57A0BA0F30577400DD447B</string>
-											<string>5C57A0BB0F30577400DD447B</string>
+											<string>5C0ED8990F51552B00EBB8D0</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -400,9 +391,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>5C45DEEF0F4DB8CE0075E5F8</string>
+				<string>5C072C570F57B5C10069F9EF</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>5C45DEF00F4DB8CE0075E5F8</string>
+				<string>5C072C580F57B5C10069F9EF</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -537,7 +528,9 @@
 	<key>WindowOrderList</key>
 	<array>
 		<string>1CD10A99069EF8BA00B06720</string>
+		<string>5C57A0D30F30577400DD447B</string>
 		<string>/Users/mpattee/Documents/source/InitiativeTracker/InitiativeTracker.xcodeproj</string>
+		<string>1C78EAAD065D492600B07095</string>
 	</array>
 	<key>WindowString</key>
 	<string>0 59 1440 819 0 0 1440 878 </string>
@@ -617,7 +610,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>5C57A0D30F30577400DD447B</string>
-				<string>5CDFA4400F4D5B9400D81B64</string>
+				<string>5C072C4A0F57B34F0069F9EF</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -737,13 +730,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>5C45DEF10F4DB8CE0075E5F8</string>
+				<string>5C072C4B0F57B34F0069F9EF</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>5C45DEF20F4DB8CE0075E5F8</string>
-				<string>5C45DEF30F4DB8CE0075E5F8</string>
-				<string>5C45DEF40F4DB8CE0075E5F8</string>
-				<string>5C45DEF50F4DB8CE0075E5F8</string>
-				<string>5C45DEF60F4DB8CE0075E5F8</string>
+				<string>5C072C4C0F57B34F0069F9EF</string>
+				<string>5C072C4D0F57B34F0069F9EF</string>
+				<string>5C072C4E0F57B34F0069F9EF</string>
+				<string>5C072C4F0F57B34F0069F9EF</string>
+				<string>5C072C500F57B34F0069F9EF</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -899,7 +892,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>5CDFA4470F4D5B9400D81B64</string>
+				<string>5C072C510F57B34F0069F9EF</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>
@@ -909,7 +902,7 @@
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>Identifier</key>

@@ -124,7 +124,14 @@
 
 - (IBAction)nextPlayer:(id)sender
 {
-	NSInteger currentIndex = [tableView selectedRow];
+	NSInteger currentIndex = 0;
+	for (Player * player in players) {
+		[tableView selectRow:currentIndex byExtendingSelection:NO];
+		if (player.roundCompleted)
+		{
+			currentIndex++;
+		}
+	}
 	Player * player = [players objectAtIndex:currentIndex];
 	if (player.endOfRoundEffect) {
 		NSAlert * eorAlert = [NSAlert alertWithMessageText:[NSString stringWithFormat:@"%@ has an end of round action to complete", player.name] defaultButton:@"Keep Warning" alternateButton:@"Clear Warning" otherButton:nil informativeTextWithFormat:@"Would you like to keep the warning?"];
@@ -194,7 +201,7 @@
 	[aTableView reloadData];
 }
 
-
+/*
 - (NSIndexSet *)tableView:(NSTableView *)aTableView selectionIndexesForProposedSelection:(NSIndexSet *)proposedSelectionIndexes
 {
 	if ([aTableView clickedRow] == -1) {
@@ -220,8 +227,7 @@
 	}
 	return [aTableView selectedRowIndexes];
 }
-
-
+*/
 
 - (NSInteger)rollInitiative:(int)modifier;
 {

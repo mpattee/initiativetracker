@@ -17,6 +17,8 @@
 	IBOutlet NSColorWell *initiativeColor;
 	IBOutlet NSTextField *roundLabel;
 	IBOutlet NSButton *nextRoundButton;
+	IBOutlet NSButton *addInitiativeButton;
+	IBOutlet NSButton *dealDamageButton;
 	NSMutableArray *players;
 	NSInteger combatRound;
 }
@@ -29,5 +31,7 @@
 - (int)rollInitiative:(int)modifier;
 - (void)initSorting;
 
+
 @property NSInteger combatRound;
+@property (nonatomic, retain) NSMutableArray *players;
 @end

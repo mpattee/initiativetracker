@@ -13,6 +13,7 @@
 @implementation InitiativeTrackerController
 
 @synthesize combatRound;
+@synthesize players;
 
 - (id) init
 {
@@ -84,6 +85,9 @@
 	[roundLabel setStringValue:[NSString stringWithFormat:@"Round: %d", [self combatRound]]];
 	[nextRoundButton setEnabled:YES];
 	[nextRoundButton setTitle:@"Start Combat"];
+//	NSLog(@"hmmm:%@asdf", [addInitiativeButton keyEquivalent]);
+//	[dealDamageButton setKeyEquivalent:nil];
+//	[addInitiativeButton setKeyEquivalent:@"\r"];
 	[tableView reloadData];
 }
 
@@ -92,6 +96,8 @@
 	[nextRoundButton setEnabled:NO];
 	self.combatRound++;
 	if (combatRound == 1) {
+//		[addInitiativeButton setKeyEquivalent:nil];
+//		[dealDamageButton setKeyEquivalent:@"\r"];
 		[nextRoundButton setTitle:@"Next Round"];
 	}
 	[roundLabel setStringValue:[NSString stringWithFormat:@"Round: %d", [self combatRound]]];
@@ -200,6 +206,7 @@
 	[players sortUsingDescriptors:newDescriptors];
 	[aTableView reloadData];
 }
+
 
 /*
 - (NSIndexSet *)tableView:(NSTableView *)aTableView selectionIndexesForProposedSelection:(NSIndexSet *)proposedSelectionIndexes

@@ -13,16 +13,24 @@
 	NSString *name;
 	NSInteger initiativeModifier;
 	NSInteger initiative;
+	NSInteger maxHp;
+	NSInteger currentHp;
+	BOOL bloodied;
 	BOOL startOfRoundEffect;
 	BOOL endOfRoundEffect;
 	BOOL roundCompleted;
 	NSColor *color;
 }
 
+- (void)takeDamage:(NSInteger)damage;
+
 @property (retain) NSString *name;
 @property NSInteger initiativeModifier;
 @property NSInteger initiative;
+@property NSInteger maxHp;
+@property NSInteger currentHp;
 @property (retain) NSColor *color;
+@property BOOL bloodied;
 @property BOOL startOfRoundEffect;
 @property BOOL endOfRoundEffect;
 @property BOOL roundCompleted;

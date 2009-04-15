@@ -20,6 +20,7 @@
 	BOOL endOfRoundEffect;
 	BOOL roundCompleted;
 	NSColor *color;
+	BOOL didFinish;
 }
 
 - (void)takeDamage:(NSInteger)damage;
